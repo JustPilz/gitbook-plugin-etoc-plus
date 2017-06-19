@@ -32,7 +32,7 @@ module.exports = {
       if (_notoc && (!_existstoc)) return page;
 
       if(_translit) {
-        page.content = page.content.replace(/(#{1,6}\s(.*?[^\}|\r]))$/mg, function(str, p1, p2, offset, s) {
+        page.content = page.content.replace(/(#{1,6}\s(.*?[^\}|\r\n]))$/mg, function(str, p1, p2, offset, s) {
              if(p2) return p1+' {#'+slug(translit(p2))+'}';
              return s;
         });
