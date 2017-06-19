@@ -1,0 +1,27 @@
+{
+  "name": "gitbook-plugin-etoc-plus",
+  "version": "0.0.1",
+  "description": "Elegant table of content for GitBook",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=3.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustPilz/gitbook-plugin-etoc-plus.git"
+  },
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "dependencies": {
+    "translit": "^0.0.1",
+    "github-slugid": "^1.0.1",
+    "markdown-toc": "^0.12.16"
+  },
+  "author": "JustPilz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustPilz/gitbook-plugin-etoc-plus/issues"
+  },
+  "homepage": "https://github.com/JustPilz/gitbook-plugin-etoc-plus#readme"
+}
