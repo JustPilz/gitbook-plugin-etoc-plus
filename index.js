@@ -15,10 +15,10 @@ module.exports = {
   book: {
     assets: './assets',
     css: [
-      "plugin.css"
+      "etoc-plus.css"
     ],
     js: [
-      "plugin.js"
+      "etoc-plus.js"
     ]
   },
   hooks: {
